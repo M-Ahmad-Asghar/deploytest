@@ -27,9 +27,9 @@ function ServicesCard() {
             </Row>
 
             <ul className={style.cardContainer}>
-                {cardData.map((item) => {
+                {cardData.map((item, index) => {
                     return (
-                        <li >
+                        <li key={index}>
                             <a href='#'>
                                 <div className={style.card}>
                                     <MdOutlinePhonelinkRing style={{ color: item.bgColor }} className={style.cardIcon} />
