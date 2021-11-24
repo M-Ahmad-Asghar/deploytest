@@ -1,4 +1,5 @@
-import ContactMap from "../pages/components/contactUs/contactMap/ContactMap"
+import React from 'react'
+import ContactMap from '../pages/components/contactUs/contactMap/ContactMap'
 
 
 export default function contactUs() {

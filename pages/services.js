@@ -6,7 +6,8 @@ function Services() {
     return (
         <div >
             <ServicesCard />
-            {/* <Cababilities /> */}
+            <Cababilities />
+
         </div>
     )
 

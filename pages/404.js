@@ -1,3 +1,4 @@
+import React from 'react'
 import style from '../styles/errorPage.module.css'
 import Link from 'next/link'
 
@@ -11,7 +12,7 @@ export default function ErrorPage() {
                 <span className={style.four}><span className={style.screenReaderText}>4</span></span>
             </section>
             <div className={style.linkContainer}>
-                <Link href="/" passHref={true}>
+                <Link href='/'>
                 <div className={style.moreLink}>Back to Home </div>
                 </Link>
             </div>

@@ -4,12 +4,17 @@
     height: 100vh;
 }
 .circleContainer{
-    margin-top: 50px;
     width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+@media (max-width: 420px) {
+    .circleContainer{
+        width: 73%;
+    }  
+}
+
 .circle{
     width: 95px;
     height: 95px;
@@ -20,6 +25,73 @@
     align-items: center;
 
 }
+@media (max-width: 420px) {
+    .circle{
+        width: 70px;
+        height: 70px;
+    }  
+}
+
+.circleContainer2{
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 88px;
+}
+@media (max-width: 600px) {
+    .circleContainer2{
+        width: 73%;
+    }  
+}
+.circle2{
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+@media (max-width: 420px) {
+    .circle2{
+        width: 70px;
+        height: 70px;
+    }  
+}
+
+
+
 .circleIcon{
     font-size: 80px;
+}
+.title{
+    margin-top: 70px;
+}
+.arrowCircle{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+
+}
+.arrowCircleIcon{
+    color: #fff;
+    font-size: 20px;
+}
+.arrowCircleMain{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.arrowCircleHeading{
+    margin-top: 3px;
+    margin-left: 20px;
 }
