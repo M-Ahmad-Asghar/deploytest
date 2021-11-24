@@ -1,0 +1,25 @@
+.main{
+    margin-top: 50px;
+    background-color: #f8cca8;
+    height: 100vh;
+}
+.circleContainer{
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.circle{
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circleIcon{
+    font-size: 80px;
+}
