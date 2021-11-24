@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap';
 import style from '../../../../styles/servicesCard.module.css'
-import { MdOutlinePhonelinkRing } from "react-icons/md";
+import { MdOutlinePhonelinkRing } from 'react-icons/md';
 
 function ServicesCard() {
 
@@ -30,7 +30,7 @@ function ServicesCard() {
                 {cardData.map((item) => {
                     return (
                         <li >
-                            <a href="#">
+                            <a href='#'>
                                 <div className={style.card}>
                                     <MdOutlinePhonelinkRing style={{ color: item.bgColor }} className={style.cardIcon} />
                                     <p className={style.CardTitle}>Mobile App</p>

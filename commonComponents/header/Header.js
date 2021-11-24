@@ -9,22 +9,22 @@ function Header() {
 
     return (
         <div className={style.headerContainer}>
-            <Navbar expand='lg' variant="light">
-                <Navbar.Brand href="#home">
+            <Navbar expand='lg' variant='light'>
+                <Navbar.Brand href='#home'>
                     <div className={style.image} >
-                        <Image src={Logo} alt="logo" />
+                        <Image src={Logo} alt='logo' />
                     </div>
                 </Navbar.Brand>
                 <Navbar.Toggle className={style.toggleBtn} />
-                <Navbar.Collapse className="justify-content-end">
+                <Navbar.Collapse className='justify-content-end'>
                     <ul className={style.linksMain}>
-                        <li><Link href="/">Cases</Link></li>
-                        <li><Link href="services">Services</Link></li>
-                        <li><Link href="#">About Us</Link></li>
-                        <li><Link href="#">Carreers</Link></li>
-                        <li><Link href="#">Blog</Link></li>
-                        <li><Link href="contactUs">Contact Us</Link></li>
-                        <li><Link href="#">
+                        <li><Link href='/'>Cases</Link></li>
+                        <li><Link href='services'>Services</Link></li>
+                        <li><Link href='#'>About Us</Link></li>
+                        <li><Link href='#'>Carreers</Link></li>
+                        <li><Link href='#'>Blog</Link></li>
+                        <li><Link href='contactUs'>Contact Us</Link></li>
+                        <li><Link href='#'>
                             <span className={style.btn}>Hire Us
                                 <div className={style.container}>
                                     <div className={style.dot1}></div>
