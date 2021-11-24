@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../../../styles/ContactMap.module.css'
+import styles from '../../../../styles/contactMap.module.css'
 import Image from 'next/image'
 import MapImage from '../../../../public/map.png'
 import { Row, Col } from 'react-bootstrap'
