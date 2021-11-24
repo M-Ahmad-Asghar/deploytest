@@ -5,7 +5,6 @@ import MapImage from '../../../../public/map.png'
 import { Row, Col } from 'react-bootstrap'
 
 export default function ContactMap() {
-
   return (
     <Row className={styles.mainContainer}>
       <Col lg={5}>
