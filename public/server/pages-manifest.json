@@ -1,0 +1,16 @@
+{
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/components/contactUs/contactMap/ContactMap": "pages/components/contactUs/contactMap/ContactMap.html",
+  "/components/headerSection/HeaderSection": "pages/components/headerSection/HeaderSection.html",
+  "/components/services/capabilities/Capabilities": "pages/components/services/capabilities/Capabilities.html",
+  "/components/services/servicesCard/ServicesCard": "pages/components/services/servicesCard/ServicesCard.html",
+  "/contactUs": "pages/contactUs.html",
+  "/home": "pages/home.html",
+  "/": "pages/index.html",
+  "/portfolio": "pages/portfolio.html",
+  "/services": "pages/services.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js"
+}
