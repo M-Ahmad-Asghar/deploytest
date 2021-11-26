@@ -26,12 +26,6 @@
     align-items: center;
 
 }
-@media (max-width: 420px) {
-    .circle{
-        width: 140px;
-        height: 140px;
-    }  
-}
 
 .secoundCircleContainer{
     width: 60%;
@@ -73,7 +67,6 @@
     .thirdCircleContainer{
       margin-top: 0px;
       width: 100%;
-
     }  
 }
 
@@ -89,43 +82,38 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding:5px
-    
+    padding:5px;
+    cursor: pointer;
 
 }
 .arrowCircleIcon{
     width: 30px;
     height: 20px;
 }
-.arrowCircleIcon:hover {
-    animation: slide1 2s ease-in-out ;
-    margin-left: 9px;
+.arrowCircle:hover .arrowCircleIcon{
+    animation: slide1 2s ease-in-out;
+    margin-left: 5px;
     position: absolute;
-    cursor: pointer;
+
   }
   @keyframes slide1 {
     0%,100%{
-      transform: translate(0, 0px);
+      transform: translate(0, 0);
     }
   
     50% {
-      transform: translate(12px, 0);
+      transform: translate(15px, 0);
     }
-   
-    
   }
-
 .arrowCircleMain{
     display: flex;
     flex-direction: row;
     margin-top: 10px;
 }
 .arrowCircleHeading{
-    margin-top: 3px;
+    margin-top: 12px;
     margin-left: 20px;
 }
 
 
-
-
-
+ 

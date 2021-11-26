@@ -25,51 +25,51 @@ export default function Capabilities() {
                 <Col lg={6} md={6} sm={12} xs={12} >
                     <div >
                         <div className={style.circleContainer}>
-                            <div className={style.circle}>
+                            <div className={`${style.circle} hovicon effect`}>
                                 <Image src={ReactIcon} alt="icon" className={style.circleIcon} />
                             </div>
-                            <div className={style.circle}>
+                            <div className={`${style.circle} hovicon effect`}>
                                 <Image src={PytorchIcon} alt="icon" className={style.circleIcon} />
                             </div>
                         </div>
                         <div className={style.secoundCircleContainer}>
-                            <div className={style.secoundCircle}>
+                            <div className={`${style.secoundCircle} hovicon effect`}>
                                 <Image src={JangoIcon} alt="icon" className={style.circleIcon} />
 
                             </div>
-                            <div className={style.secoundCircle}>
+                            <div className={`${style.secoundCircle} hovicon effect`}>
                                 <Image src={CaffeIcon} alt="icon" className={style.circleIcon} />
                             </div>
                         </div>
                         <div className={style.thirdCircleContainer}>
-                            <div className={style.circle}>
+                            <div className={`${style.circle} hovicon effect`}>
                                 <Image src={KerasIcon} alt="icon" className={style.circleIcon} />
                             </div>
-                            <div className={style.circle}>
+                            <div className={`${style.circle} hovicon effect`}>
                                 <Image src={FlaskIcon} alt="icon" className={style.circleIcon} />
                             </div>
                         </div>
                         <div className={style.secoundCircleContainer}>
-                            <div className={style.secoundCircle}>
+                            <div className={`${style.secoundCircle} hovicon effect`}>
                                 <Image src={ExpressIcon} alt="icon" className={style.circleIcon} />
                             </div>
-                            <div className={style.secoundCircle}>
+                            <div className={`${style.secoundCircle} hovicon effect`}>
                                 <Image src={FirebaseIcon} alt="icon" className={style.circleIcon} />
                             </div>
                         </div>
                         <div className={style.thirdCircleContainer}>
-                            <div className={style.circle}>
+                            <div className={`${style.circle} hovicon effect`}>
                                 <Image src={FfIcon} alt="icon" className={style.circleIcon} />
                             </div>
-                            <div className={style.circle}>
+                            <div className={`${style.circle} hovicon effect`}>
                                 <Image src={MongodbIcon} alt="icon" className={style.circleIcon} />
                             </div>
                         </div>
                         <div className={style.secoundCircleContainer}>
-                            <div className={style.secoundCircle}>
+                            <div className={`${style.secoundCircle} hovicon effect`}>
                                 <Image src={LearnIcon} alt="icon" className={style.circleIcon} />
                             </div>
-                            <div className={style.secoundCircle}>
+                            <div className={`${style.secoundCircle} hovicon effect`}>
                                 <Image src={JavascriptIcon} alt="icon" className={style.circleIcon} />
                             </div>
                         </div>
@@ -108,6 +108,7 @@ export default function Capabilities() {
                         <p className={style.arrowCircleHeading}>{'174 Active World-class Client'}</p>
                     </div>
                 </Col>
+            
 
             </Row>
         </div>

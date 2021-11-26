@@ -99,9 +99,9 @@
   padding-left: 10px;
 }
 
-.cardContainer li a:hover .card .cardIcon{
+/* .cardContainer li a:hover .card .cardIcon{
   background-color: red !important;
-}
+} */
 .cardContainer li a:hover .card .CardTitle{
   color: #fff;
 }
@@ -113,19 +113,19 @@
 }
 
 .cardContainer li:nth-child(1) a:before {
-  background: #4eb5a2;
+  background: #4eb6a3;
 }
 .cardContainer li:nth-child(2) a:before {
   background: #f38430;
 }
 .cardContainer li:nth-child(3) a:before {
-  background: #8cd5e8;
+  background: #8ed6e7;
 }
 .cardContainer li:nth-child(4) a:before {
-  background: #f7d74f;
+  background: #f6d84f;
 }
 .cardContainer li:nth-child(5) a:before {
-  background: #bfb8f8;
+  background: #c0b8f8;
 }
 
 
