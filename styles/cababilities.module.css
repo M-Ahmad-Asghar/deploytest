@@ -1,25 +1,26 @@
 .main{
     margin-top: 50px;
-    background-color: #f8cca8;
-    height: 100vh;
+    background: rgba(207, 158, 40, 0.2);
+    padding: 30px;
 }
 .circleContainer{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 @media (max-width: 420px) {
     .circleContainer{
-        width: 73%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }  
 }
 
 .circle{
-    width: 95px;
-    height: 95px;
-    border-radius: 100%;
-    background-color: #fff;
+    width: 140px;
+    height: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,65 +28,93 @@
 }
 @media (max-width: 420px) {
     .circle{
-        width: 70px;
-        height: 70px;
+        width: 140px;
+        height: 140px;
     }  
 }
 
-.circleContainer2{
-    margin-top: 50px;
-    width: 50%;
+.secoundCircleContainer{
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 88px;
+    margin-left: 118px;  
 }
-@media (max-width: 600px) {
-    .circleContainer2{
-        width: 73%;
+@media (max-width: 420px) {
+    .secoundCircleContainer{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 60px;
     }  
 }
-.circle2{
-    width: 95px;
-    height: 95px;
-    border-radius: 100%;
-    background-color: #fff;
+.secoundCircle{
+    width: 140px;
+    height: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -80px;
 }
 @media (max-width: 420px) {
-    .circle2{
-        width: 70px;
-        height: 70px;
+    .secoundCircle{
+        width: 140px;
+        height: 140px;
+        margin-top: -65px;
+    }  
+}
+.thirdCircleContainer{
+    margin-top: -60px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (max-width: 420px) {
+    .thirdCircleContainer{
+      margin-top: 0px;
+      width: 100%;
+
     }  
 }
 
-
-
-.circleIcon{
-    font-size: 80px;
-}
 .title{
     margin-top: 70px;
 }
 .arrowCircle{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
     background-color: var(--main-color);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    padding:5px
     
 
 }
 .arrowCircleIcon{
-    color: #fff;
-    font-size: 20px;
+    width: 30px;
+    height: 20px;
 }
+.arrowCircleIcon:hover {
+    animation: slide1 2s ease-in-out ;
+    margin-left: 9px;
+    position: absolute;
+    cursor: pointer;
+  }
+  @keyframes slide1 {
+    0%,100%{
+      transform: translate(0, 0px);
+    }
+  
+    50% {
+      transform: translate(12px, 0);
+    }
+   
+    
+  }
+
 .arrowCircleMain{
     display: flex;
     flex-direction: row;
@@ -95,3 +124,8 @@
     margin-top: 3px;
     margin-left: 20px;
 }
+
+
+
+
+

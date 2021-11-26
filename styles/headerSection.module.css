@@ -1,105 +1,109 @@
-.main{
-   background-image: url('../public/bg.png');
-   background-repeat: no-repeat;
-   background-size: cover;
-   width: 100%;
-   height: 100vh;
-   position: absolute;
-   left: 0;
-   right: 0;
-   top: 0;
-   z-index: -1;
-}
+.bgColor{
+  background: linear-gradient(116.82deg, rgba(255, 86, 29, 0.8) 27.78%, rgba(255, 86, 29, 0.41) 100%);
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  margin-top: -105px;
 
+}
+@media screen and (max-width: 960px) {
+  .bgColor {
+   
+    height: 110vh; 
+  }
+}
 .contantContainer{
     padding-left: 30px;
     padding-right: 30px;
-
 }
 
   /* <===Header Section typewriter  Animation===> */
   .title {
-    margin-top: 200px;
-    border-right: solid 3px var(--main-color);
+    padding-top: 200px;
     white-space: nowrap;
     overflow: hidden;    
-    font-size: 50px;
+    font-size: 40px;
+    color: #fff;
   }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 990px) {
     .title {
-     margin-top: 120px;
-     font-size: 30px;   
+      display: none;
     }
   }
-
-  .title {
-     animation: animated-text 4s steps(29,end) 1s 1 normal both,
-               animated-cursor 600ms steps(29,end) infinite;
+  @media screen and (min-width: 990px) {
+  .titleSm{
+  display: none;
   }
-
-  @keyframes animated-text{
-    from{width: 0;}
-    to{width: 75%;}
   }
-  @keyframes animated-cursor{
-    from{border-right-color: var(--main-color);}
-    to{border-right-color: transparent;}
+  @media screen and (max-width: 990px) {
+    .titleSm{
+    display: block;
+    padding-top: 150px;
+    font-size: 40px;
+    color: #fff;
+    font-size: 30px;
+    }
   }
-  
-  .linksTab{
+  /* <===header section links tab animation===> */
+  .headerSectionlinksTab{
     padding: 0px;
     width: 60%;
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
   }
+  @media screen and (max-width: 1130px) {
+    .headerSectionlinksTab{
+     width: 80%;
+    }
+  }
 
-.linksTab  li {
+.headerSectionlinksTab  li {
     display: table-cell;
     position: relative;
   }
   @media screen and (max-width: 990px) {
-    .linksTab  li {
+    .headerSectionlinksTab  li {
      display: block;
      width: 100%;
     }
   }
 
   @media screen and (max-width: 990px) {
-    .linksTab {
+    .headerSectionlinksTab {
      display: block;
      width: 100%;
      margin-top: 20px;   
     }
   }
-  .linksTab  li a {
+  .headerSectionlinksTab  li a {
     font-size: 14px;
     font-weight: bold;
-    color: black;
+    color: #fff;
     text-decoration: none;
     display: inline-block;
     position: relative;
   }
   @media screen and (max-width: 990px) {
-    .linksTab  li a {
+    .headerSectionlinksTab  li a {
       display: block; 
       width: 100%;
       margin-top: 5px;
 
     }
   }
-  .linksTab  li a:hover:after {
+  .headerSectionlinksTab  li a:hover:after {
     width:100%;
     right: 0;
   }
-  .linksTab  li a:after {
+  .headerSectionlinksTab  li a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
     display: block;
     height: 2px;
     right: 0;
-    background: var(--main-color);
+    background: #fff;
     transition: width 1s ease 0s, right 0.5s ease 0s;
     width: 0;
   }
@@ -119,20 +123,14 @@
   }
 
   .IconsContainer li a {
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    text-align: center;
-    line-height: 42px;
-    font-size: 25px;
+    width: 35px;
+    height: 35px;
     margin: 0px 10px;
     display: block;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-    border: 3px solid #fff;
     z-index: 1;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
   .IconsContainer li a .icon {
@@ -154,9 +152,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #f00;
     transition: 0.5s;
-    z-index: 2;
+    z-index: 2; 
   }
   
   .IconsContainer li a:hover:before {
@@ -166,14 +163,17 @@
     background: #3b5999;
   }
   .IconsContainer li:nth-child(2) a:before {
-    background: #dd4b39;
-
+    background: #24292f;
   }
-  
   .IconsContainer li:nth-child(3) a:before {
     background: #0077b5;
   }
   .IconsContainer li:nth-child(4) a:before {
     background: #55acee;
+
+  }  
+  .IconsContainer li:nth-child(5) a:before {
+       background: #dd4b39;
+
 
   }  
