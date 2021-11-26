@@ -1,0 +1,75 @@
+.imageContainer{
+    height: 200px;
+    width: 200px;
+}
+.imageItem{
+    opacity: 0.5;
+    filter: grayscale(1);
+    transition: all 0.35s ease-in-out;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -o-user-select: none !important;
+    user-select: none !important;
+    
+}
+.imageItem:hover{
+    opacity: 1;
+    filter: gray;
+    filter: grayscale(0);
+    /* z-index: -1; */
+    transition: all 0.1s ease-in;
+
+ 
+}
+.customButtonGroup{
+    width: 100%;
+}
+.btnRow{
+    position: relative;
+    top: -117px;
+}
+.btn1{
+    position: absolute;
+    right: -2% !important;
+    top: 75.58%;
+    bottom: 11.78%;
+    cursor: pointer;    
+}
+.btn2{
+    position: absolute;
+    left: -2%;
+    right: 98.29%;
+    top: 76.61%;
+    bottom: 10.75%;
+    color: black;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px){
+    .btn1{
+        right: -3% !important;
+        width: 13px !important;
+        height: 28px !important;
+    }
+    .btn2{
+        left: -3% !important;
+        width: 13px !important;
+        height: 26px !important;
+    }
+ }
+ @media only screen and (max-width: 425px){
+    .btn1{
+        right: -7% !important;
+    }
+    .btn2{
+        left: -7% !important;
+    }
+ }
+ @media only screen and (max-width: 375px){
+    .btn1{
+        right: -10% !important;
+    }
+    .btn2{
+        left: -10% !important;
+    }
+ }

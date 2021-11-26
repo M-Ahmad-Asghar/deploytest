@@ -22,7 +22,7 @@ function Header() {
                         <li><Link href='services'>Services</Link></li>
                         <li><Link href='#'>About Us</Link></li>
                         <li><Link href='#'>Careers</Link></li>
-                        <li><Link href='#'>Blog</Link></li>
+                        <li><Link href='blog'>Blog</Link></li>
                         <li><Link href='contactUs'>Contact Us</Link></li>
                         <li><Link href='#'>
                             <span className={style.btn}>Hire Us
