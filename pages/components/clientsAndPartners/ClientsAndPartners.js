@@ -7,6 +7,7 @@ function ClientsAndPartners() {
     const { imagesSrc } = useClientsAndPartners()
     return (
         <div className={style.root} >
+
             <div className={style.carouselContainer}>
                 <Container className={style.secondContainer}>
                     <p className={`${style.sliderHeading} title`}>CLIENTS AND PARTNERS</p>
