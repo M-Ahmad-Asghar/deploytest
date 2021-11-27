@@ -6,7 +6,8 @@
 .pnp.js
 #others
 /.git_ahmad
-/git-tech
+
+/git_tech
 # testing
 /coverage
 
