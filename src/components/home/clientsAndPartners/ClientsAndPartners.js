@@ -1,7 +1,7 @@
 import React from 'react'
 import useClientsAndPartners from './useClientsAndPartners';
 import style from '../../../../styles/clientsAndPartners.module.css'
-import MultiItemsCarousel from '../../../../commonComponents/multiItemsCarousel/MultiItemsCarousel';
+import MultiItemsCarousel from '../../../commonComponents/multiItemsCarousel/MultiItemsCarousel';
 import Container from 'react-bootstrap/Container'
 function ClientsAndPartners() {
     const { imagesSrc } = useClientsAndPartners()
