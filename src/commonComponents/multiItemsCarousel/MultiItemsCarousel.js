@@ -7,7 +7,6 @@ const MultiItemsCarousel = (props) => {
     const { responsive, CustomButtonGroup, settings } = useMultiItemsCarousel()
     const { imagesSrc, } = props
 
-
     return (
         <Carousel responsive={responsive} {...settings} rrows={false} renderButtonGroupOutside={true} customButtonGroup={<CustomButtonGroup />} >
             {
