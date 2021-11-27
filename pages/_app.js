@@ -5,7 +5,6 @@ import Header from '../commonComponents/header/Header'
 import 'react-multi-carousel/lib/styles.css';
 function MyApp({ Component, pageProps }) {
   return (
-
     <div>
       <Header />
       <Component {...pageProps} />
