@@ -1,11 +1,9 @@
 import React from 'react';
-import useFooterSection from './useFooterSection';
 import style from '../../../styles/footerSection.module.css'
 import { Container, Row, Col, Stack, InputGroup, FormControl, Button } from 'react-bootstrap';
 import Image from 'next/image';
 function FooterSection() {
     const path = '/images/footer'
-    const { data } = useFooterSection()
     return (
         <div className={style.root}>
             <Container>
@@ -16,7 +14,7 @@ function FooterSection() {
                             <p className={`${style.officeAddress} subTitle`}>Kashmir Pull, Canal Road,<br /> Faisalabad</p>
                             <p className={`${style.contactNumber} subTitle`}>0309-<span className={style.textUnderline}>1734246</span></p>
                             <p className={`${style.Follow} title`}>Follow</p>
-                            <Stack className={style.iconsRow} direction="horizontal" gap={4} >
+                            <Stack className={style.iconsRow} direction='horizontal' gap={4} >
                                 <div className={style.iconContainer}>
                                     <Image src={`${path}/github.png`} alt='Github icon' width='40px' height='40px' />
                                 </div>
@@ -27,7 +25,7 @@ function FooterSection() {
                                     <Image src={`${path}/linkedin.png`} alt='linkedin icon' width='40px' height='40px' />
                                 </div>
                             </Stack>
-                            <Stack className={style.iconsRow} direction="horizontal" gap={4}>
+                            <Stack className={style.iconsRow} direction='horizontal' gap={4}>
                                 <div className={style.iconContainer}>
                                     <Image src={`${path}/twitter.png`} alt='twitter icon' width='40px' height='40px' />
                                 </div>
@@ -107,12 +105,12 @@ function FooterSection() {
                             <InputGroup className={style.InputGroup}>
                                 <FormControl
                                     className={style.subscribeInput}
-                                    placeholder="Recipient's username"
-                                    aria-label="Recipient's username"
-                                    aria-describedby="basic-addon2"
+                                    placeholder={`Recipient's username`}
+                                    aria-label={`Recipient's username`}
+                                    aria-describedby='basic-addon2'
                                 />
                                 <Button
-                                    variant="outline-secondary" id="button-addon2" className={`${style.subscribeButton} subTitle`}>
+                                    variant='outline-secondary' id='button-addon2' className={`${style.subscribeButton} subTitle`}>
                                     SUBSCRIBE
                                 </Button>
                             </InputGroup>

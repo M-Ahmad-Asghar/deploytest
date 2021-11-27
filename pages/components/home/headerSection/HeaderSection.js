@@ -24,8 +24,8 @@ function HeaderSection() {
                         />
                     </h1>
                     <h1 className={style.titleSm}>
-                    YOUR VERY OWN TECHNOLOGY CLOSET!
-                        </h1>
+                        YOUR VERY OWN TECHNOLOGY CLOSET!
+                    </h1>
                     <ul className={style.headerSectionlinksTab}>
                         <li> <a href='#'>Mobile App Development</a></li>
                         <li><a href='#'>Web App Development</a></li>
@@ -39,27 +39,27 @@ function HeaderSection() {
                     <ul className={style.IconsContainer}>
                         <li>
                             <a href='#'>
-                                <Image src={FacebookIcon} className={style.icon} alt="FacebookIcon" />
+                                <Image src={FacebookIcon} className={style.icon} alt='FacebookIcon' />
                             </a>
                         </li>
                         <li>
                             <a href='#'>
-                                <Image src={GithubIcon} className={style.icon} alt="FacebookIcon" />
+                                <Image src={GithubIcon} className={style.icon} alt='FacebookIcon' />
                             </a>
                         </li>
                         <li>
                             <a href='#'>
-                                <Image src={LinkedInIcon} className={style.icon} alt="FacebookIcon" />
+                                <Image src={LinkedInIcon} className={style.icon} alt='FacebookIcon' />
                             </a>
                         </li>
                         <li>
                             <a href='#'>
-                                <Image src={TwitterIcon} className={style.icon} alt="FacebookIcon" />
+                                <Image src={TwitterIcon} className={style.icon} alt='FacebookIcon' />
                             </a>
                         </li>
                         <li>
                             <a href='#'>
-                                <Image src={InstagramIcon} className={style.icon} alt="FacebookIcon" />
+                                <Image src={InstagramIcon} className={style.icon} alt='FacebookIcon' />
                             </a>
                         </li>
 

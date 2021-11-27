@@ -26,51 +26,51 @@ export default function Capabilities() {
                     <div >
                         <div className={style.circleContainer}>
                             <div className={`${style.circle} hovicon effect`}>
-                                <Image src={ReactIcon} alt="icon" className={style.circleIcon} />
+                                <Image src={ReactIcon} alt='icon' className={style.circleIcon} />
                             </div>
                             <div className={`${style.circle} hovicon effect`}>
-                                <Image src={PytorchIcon} alt="icon" className={style.circleIcon} />
+                                <Image src={PytorchIcon} alt='icon' className={style.circleIcon} />
                             </div>
                         </div>
                         <div className={style.secoundCircleContainer}>
                             <div className={`${style.secoundCircle} hovicon effect`}>
-                                <Image src={JangoIcon} alt="icon" className={style.circleIcon} />
+                                <Image src={JangoIcon} alt='icon' className={style.circleIcon} />
 
                             </div>
                             <div className={`${style.secoundCircle} hovicon effect`}>
-                                <Image src={CaffeIcon} alt="icon" className={style.circleIcon} />
+                                <Image src={CaffeIcon} alt='icon' className={style.circleIcon} />
                             </div>
                         </div>
                         <div className={style.thirdCircleContainer}>
                             <div className={`${style.circle} hovicon effect`}>
-                                <Image src={KerasIcon} alt="icon" className={style.circleIcon} />
+                                <Image src={KerasIcon} alt='icon' className={style.circleIcon} />
                             </div>
                             <div className={`${style.circle} hovicon effect`}>
-                                <Image src={FlaskIcon} alt="icon" className={style.circleIcon} />
+                                <Image src={FlaskIcon} alt='icon' className={style.circleIcon} />
                             </div>
                         </div>
                         <div className={style.secoundCircleContainer}>
                             <div className={`${style.secoundCircle} hovicon effect`}>
-                                <Image src={ExpressIcon} alt="icon" className={style.circleIcon} />
+                                <Image src={ExpressIcon} alt='icon' className={style.circleIcon} />
                             </div>
                             <div className={`${style.secoundCircle} hovicon effect`}>
-                                <Image src={FirebaseIcon} alt="icon" className={style.circleIcon} />
+                                <Image src={FirebaseIcon} alt='icon' className={style.circleIcon} />
                             </div>
                         </div>
                         <div className={style.thirdCircleContainer}>
                             <div className={`${style.circle} hovicon effect`}>
-                                <Image src={FfIcon} alt="icon" className={style.circleIcon} />
+                                <Image src={FfIcon} alt='icon' className={style.circleIcon} />
                             </div>
                             <div className={`${style.circle} hovicon effect`}>
-                                <Image src={MongodbIcon} alt="icon" className={style.circleIcon} />
+                                <Image src={MongodbIcon} alt='icon' className={style.circleIcon} />
                             </div>
                         </div>
                         <div className={style.secoundCircleContainer}>
                             <div className={`${style.secoundCircle} hovicon effect`}>
-                                <Image src={LearnIcon} alt="icon" className={style.circleIcon} />
+                                <Image src={LearnIcon} alt='icon' className={style.circleIcon} />
                             </div>
                             <div className={`${style.secoundCircle} hovicon effect`}>
-                                <Image src={JavascriptIcon} alt="icon" className={style.circleIcon} />
+                                <Image src={JavascriptIcon} alt='icon' className={style.circleIcon} />
                             </div>
                         </div>
                     </div>
@@ -86,29 +86,29 @@ export default function Capabilities() {
                     <div className={style.arrowCircleMain}>
                         <div className={style.arrowCircle}>
                             <div className={style.arrowCircleIcon}>
-                                <Image src={RightArrowIcon} alt="icon" />
+                                <Image src={RightArrowIcon} alt='icon' />
                             </div>
                         </div>
                         <p className={style.arrowCircleHeading}>{'90% Average Customer Satisfaction'}</p>
                     </div>
                     <div className={style.arrowCircleMain}>
                         <div className={style.arrowCircle}>
-                        <div className={style.arrowCircleIcon}>
-                                <Image src={RightArrowIcon} alt="icon" />
+                            <div className={style.arrowCircleIcon}>
+                                <Image src={RightArrowIcon} alt='icon' />
                             </div>
                         </div>
                         <p className={style.arrowCircleHeading}>{'70.3% Net Promoter Scope'}</p>
                     </div>
                     <div className={style.arrowCircleMain}>
                         <div className={style.arrowCircle}>
-                        <div className={style.arrowCircleIcon}>
-                                <Image src={RightArrowIcon} alt="icon" />
+                            <div className={style.arrowCircleIcon}>
+                                <Image src={RightArrowIcon} alt='icon' />
                             </div>
                         </div>
                         <p className={style.arrowCircleHeading}>{'174 Active World-class Client'}</p>
                     </div>
                 </Col>
-            
+
 
             </Row>
         </div>

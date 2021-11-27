@@ -13,7 +13,7 @@ export default function ContactUs() {
           <h2 className={styles.title}>Contact</h2>
           <div className={styles.titleLine} />
           <p className={styles.hqText}>HQ</p>
-          <p>Kashmir Pull,Canal Road<br/>Faisalabad</p>
+          <p>Kashmir Pull,Canal Road<br />Faisalabad</p>
           <p>0309-1734246</p>
           <p className={styles.emailTxt}>info@techloset.com</p>
           <div className={styles.btn}>
@@ -22,7 +22,7 @@ export default function ContactUs() {
         </div>
       </Col>
       <Col lg={8} md={8} sm={8} xs={12}>
-        <Image className={styles.mapImage}   height="450px"  src={MapImage} alt='map' />
+        <Image className={styles.mapImage} height='450px' src={MapImage} alt='map' />
         <p className={styles.mapHeading}>Find us in the heart of Pakistan</p>
       </Col>
 

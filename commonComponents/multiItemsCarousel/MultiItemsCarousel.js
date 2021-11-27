@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import style from '../../styles/multiItemsCarousel.module.css'
 import Carousel from 'react-multi-carousel';
 import useMultiItemsCarousel from './useMultiItemsCarousel'
@@ -15,7 +14,7 @@ const MultiItemsCarousel = (props) => {
                 imagesSrc?.map((item, index) => {
                     return <div key={index} className={style.imageContainer}>
                         <Image draggable={false} src={item.src} alt='img1'
-                            layout="fill" objectFit="cover" className={style.imageItem}
+                            layout='fill' objectFit='cover' className={style.imageItem}
                         />
                     </div>
                 })
