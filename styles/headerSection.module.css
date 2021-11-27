@@ -1,0 +1,179 @@
+.bgColor{
+  background: linear-gradient(116.82deg, rgba(255, 86, 29, 0.8) 27.78%, rgba(255, 86, 29, 0.41) 100%);
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  margin-top: -105px;
+
+}
+@media screen and (max-width: 960px) {
+  .bgColor {
+   
+    height: 110vh; 
+  }
+}
+.contantContainer{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+  /* <===Header Section typewriter  Animation===> */
+  .title {
+    padding-top: 200px;
+    white-space: nowrap;
+    overflow: hidden;    
+    font-size: 40px;
+    color: #fff;
+  }
+  @media screen and (max-width: 990px) {
+    .title {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 990px) {
+  .titleSm{
+  display: none;
+  }
+  }
+  @media screen and (max-width: 990px) {
+    .titleSm{
+    display: block;
+    padding-top: 150px;
+    font-size: 40px;
+    color: #fff;
+    font-size: 30px;
+    }
+  }
+  /* <===header section links tab animation===> */
+  .headerSectionlinksTab{
+    padding: 0px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  @media screen and (max-width: 1130px) {
+    .headerSectionlinksTab{
+     width: 80%;
+    }
+  }
+
+.headerSectionlinksTab  li {
+    display: table-cell;
+    position: relative;
+  }
+  @media screen and (max-width: 990px) {
+    .headerSectionlinksTab  li {
+     display: block;
+     width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 990px) {
+    .headerSectionlinksTab {
+     display: block;
+     width: 100%;
+     margin-top: 20px;   
+    }
+  }
+  .headerSectionlinksTab  li a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+  @media screen and (max-width: 990px) {
+    .headerSectionlinksTab  li a {
+      display: block; 
+      width: 100%;
+      margin-top: 5px;
+
+    }
+  }
+  .headerSectionlinksTab  li a:hover:after {
+    width:100%;
+    right: 0;
+  }
+  .headerSectionlinksTab  li a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    right: 0;
+    background: #fff;
+    transition: width 1s ease 0s, right 0.5s ease 0s;
+    width: 0;
+  }
+
+  /* <====icons animation===> */
+  .IconsContainer {
+    display: flex;
+   position: absolute;
+   margin:0px;
+   padding:0px;
+   bottom: 20px;
+  }
+
+  .IconsContainer li {
+    list-style: none;
+    margin-top: 35px;
+  }
+
+  .IconsContainer li a {
+    width: 35px;
+    height: 35px;
+    margin: 0px 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .IconsContainer li a .icon {
+    position: relative;
+    color: #262626;
+    transition: 1s;
+    z-index: 3;
+  }
+  
+  .IconsContainer li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+  }
+  
+  .IconsContainer li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 2; 
+  }
+  
+  .IconsContainer li a:hover:before {
+    top: 0;
+  }
+  .IconsContainer li:nth-child(1) a:before {
+    background: #3b5999;
+  }
+  .IconsContainer li:nth-child(2) a:before {
+    background: #24292f;
+  }
+  .IconsContainer li:nth-child(3) a:before {
+    background: #0077b5;
+  }
+  .IconsContainer li:nth-child(4) a:before {
+    background: #55acee;
+
+  }  
+  .IconsContainer li:nth-child(5) a:before {
+       background: #dd4b39;
+
+
+  }  

@@ -1,0 +1,119 @@
+.main{
+    margin-top: 50px;
+    background: rgba(207, 158, 40, 0.2);
+    padding: 30px;
+}
+.circleContainer{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (max-width: 420px) {
+    .circleContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }  
+}
+
+.circle{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secoundCircleContainer{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 118px;  
+}
+@media (max-width: 420px) {
+    .secoundCircleContainer{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 60px;
+    }  
+}
+.secoundCircle{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+@media (max-width: 420px) {
+    .secoundCircle{
+        width: 140px;
+        height: 140px;
+        margin-top: -65px;
+    }  
+}
+.thirdCircleContainer{
+    margin-top: -60px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (max-width: 420px) {
+    .thirdCircleContainer{
+      margin-top: 0px;
+      width: 100%;
+    }  
+}
+
+.title{
+    margin-top: 70px;
+}
+.arrowCircle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding:5px;
+    cursor: pointer;
+
+}
+.arrowCircleIcon{
+    width: 30px;
+    height: 20px;
+}
+.arrowCircle:hover .arrowCircleIcon{
+    animation: slide1 2s ease-in-out;
+    margin-left: 5px;
+    position: absolute;
+
+  }
+  @keyframes slide1 {
+    0%,100%{
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(15px, 0);
+    }
+  }
+.arrowCircleMain{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.arrowCircleHeading{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+
+ 

@@ -1,0 +1,139 @@
+.root{
+    background: #373737;
+    background-image: url(../public/images/footer/globe-vector.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom !important;
+    padding-top: 65px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    color: white;
+    padding-bottom: 50px;
+}
+.footerMailHeading{
+    font-family: 'Roboto';
+    color: #FFFFFF;
+}
+.officeAddress{
+    font-weight: 300 !important;
+    color: #FFFFFF;
+    margin-top: -10px !important;
+}
+.contactNumber{
+    color: #FFFFFF;
+    margin-top: -10px !important;
+}
+.Follow{
+    color: #FFFFFF;
+    padding-top: 10px;
+    
+}
+.iconsRow{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.iconContainer{
+    width: 40px !important;
+    height: 40px !important;
+    cursor: pointer;
+}
+
+.tableHeading{
+    color: #FFFFFF;
+}
+.tableItem{
+font-weight: 400;
+color: #FFFFFF;
+}
+.lowerRow{
+    margin-top: 70px;
+}
+.clutchImage{
+    margin-top: -20px !important;
+}
+.starsContainer{
+    padding-top: 20px;
+    /* padding: 10px;
+    padding-right: 0%; */
+}
+.rvetxt{
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+.rveContainer{
+    text-align: left;
+}
+.starAndText{
+    margin-left: -60px !important;
+}
+.InputGroup{
+    height: 50px !important;
+    width: 80%;
+}
+.subscribeInput{
+    height: 50px !important;
+    background-color: #DBDBDB !important;
+    background: #989898;
+    font-family: 'roboto' !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    border-radius: none !important;
+    outline: none !important;
+
+}
+.subscribeButton{
+    height: 50px !important;
+    background: #FF561D;
+    width: 40%;
+    outline: none !important;
+    color: #FFFFFF;
+}
+.subscribeButton:focus{
+    box-shadow: none !important;
+}
+.subscribeInput:focus{
+    box-shadow: none !important;
+}
+.newsLatterCont{
+    margin-top: -15px !important;
+}
+.textUnderline{
+    border-bottom: 2px solid #FF561D;
+}
+@media only screen and (max-width: 768px){
+  .root{
+      background-size: 300px;
+      background-position-y: top !important;
+  }
+
+ }
+ @media only screen and (max-width: 425px){
+    .root{
+        background-size: 200px;
+        background-position-y: top !important;
+    }
+    .InputGroup{
+        width: 100%;
+    }
+    .subscribeButton{
+        width: 50%;
+    }
+    .starAndText{
+        margin-left: 20px !important;
+    }
+ }
+ @media only screen and (max-width: 765px){
+    .rightContainer{
+        display: none;
+    }
+    .newsLatterCont{
+        margin-top: 15px !important;
+    }
+    
+   }
+   @media only screen and (min-width: 769px){
+        .newsLatterCont{
+            margin-left: 25%;
+        }
+   
+   }

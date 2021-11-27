@@ -1,0 +1,9 @@
+# pack-refs with: peeled fully-peeled sorted 
+b9bf7b57a2cf334f046860f6dd2c622ae21fef62 refs/remotes/origin/adnan
+24af53603f833ca7ad4f3749e0b269c3f99dd03c refs/remotes/origin/adnan#2
+9dff2083c3cc8b3d992a96a3bb0165881e58596a refs/remotes/origin/clientsAndPartners
+d71c7e88d88bcc0e53471c1d9bce1345720cd700 refs/remotes/origin/master
+f5b36f31d670cea4dad0e46483d38d3056a7f1ff refs/remotes/origin/newB
+3c547b617c1db34b5aad0bd2012d339a94976025 refs/remotes/origin/primary
+fea8b26cf7e881efe6d244b2ef9e8764ca48d63b refs/remotes/origin/secondary
+0a693536f1fbda154360753b70b618620ffadf15 refs/remotes/origin/usama

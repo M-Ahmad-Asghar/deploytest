@@ -1,0 +1,164 @@
+.image{
+    width: 250px;
+}
+@media screen and (max-width: 990px) {
+  .image {
+    width: 200px;
+    margin-top: -10px;
+    height: 0px;
+    
+  }
+}
+@media screen and (max-width: 420px) {
+  .image {
+    width: 150px;
+    margin-top: -10px;
+    height: 0px;
+    
+  }
+}
+.toggleBtn{
+  background-color: aqua;
+  font-size: 15px;
+  outline: transparent;
+}
+@media screen and (max-width: 990px) {
+  .toggleBtn {
+  margin-top: 10px;
+  }
+}
+.headerContainer{
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+.btn{
+    background-color: #fff;
+    color: black;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.dot1 {
+    margin-left: 10px;
+    background:rgba(255, 86, 29, 1);
+    height: 8px;
+    width: 8px;
+    border: none;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: func 2s linear infinite;
+    animation-delay: .5s;
+  }
+  .dot2 {
+    /* margin-left: 5px; */
+    animation: func 2s linear infinite;
+    animation-delay: 0s;
+    background: rgba(255, 86, 29, 1);
+    height: 8px;
+    width: 8px;
+    border: none;
+    border-radius: 50%;
+    transform: translate(-35%, -50%);
+  }
+  .dot3 {
+    margin-left: 5px;
+    background: rgba(255, 86, 29, 1);
+    height: 8px;
+    width: 8px;
+    border: none;
+    border-radius: 50%;
+    transform: translate(-65%, -50%);
+    animation: func 2s linear infinite;
+    animation-delay: 1s;
+  }
+  @keyframes func{
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+@media screen and (max-width: 960px) {
+    .btn {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  .linksMain{
+      margin-top: 20px;
+  }
+
+  .linksMain  li {
+    display: table-cell;
+    position: relative;
+  
+  }
+  @media screen and (max-width: 960px) {
+    .linksMain {
+        background-color: #fff;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        padding:0px;
+        
+    }
+  }
+
+  .linksMain  li a {
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+      padding: 15px;
+      position: relative;
+  }
+  @media screen and (max-width: 960px) {
+    .linksMain  li a {
+       display: flex;
+       justify-content: center;
+       padding:0px;
+       padding-top: 20px;  
+    }
+  }
+ 
+  .linksMain  li a:hover:after {
+       width:100%;
+       right: 0;
+  }
+
+  .linksMain  li a:after {
+       background: none repeat scroll 0 0 transparent;
+       bottom: 0;
+       content: "";
+       display: block;
+       height: 2px;
+       right: 0;
+       background: #fff;
+       transition: width 1s ease 0s, right 0.5s ease 0s;
+       width: 0;
+  }
+
+
+
+  
+
+
+  

@@ -1,0 +1,26 @@
+.root{
+   margin-top: 50px;
+}
+.carouselContainer{
+ background-image: url(../public/images/clients-and-partners/bg-150.png);
+ background-repeat: no-repeat;
+ background-position: left;
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+.secondContainer{
+   padding-right: 30px;
+   padding-left: 30px;
+}
+  /* CLIENTS AND PARTNERS */
+.sliderHeading{
+text-align: center;
+font-family: 'Roboto';
+color: #000000;
+}
+.sliderQuote{
+   text-align: center;
+   font-family: 'Roboto';
+   color: #000000;
+   padding-bottom: 30px !important;
+}

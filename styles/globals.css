@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display&family=Roboto:wght@100;400&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.title{
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+.subTitle{
+  font-family: 'roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.subHeading{
+  font-family: 'roboto';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.commonText{
+  font-family: 'roboto';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+@media only screen and (max-width: 768px){
+  .title{
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 1px;
+  }
+  .subTitle{
+    font-family: 'roboto';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+  
+  .subHeading{
+    font-family: 'roboto';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+  
+  .commonText{
+    font-family: 'roboto';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+}
+@media only screen and (max-width: 425px){
+  .title{
+
+  }
+  .subTitle{
+  
+  }
+  .title{
+  
+  }
+  .commonText{
+  
+  }
+}
+@media only screen and (max-width: 375px){
+  .title{
+
+  }
+  .subtitle{
+  
+  }
+  .title{
+  
+  }
+  .commonText{
+  
+  }
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* color */
+:root {
+  --main-color:#ef5330;
+}
+/* mainContainer */
+.mainContainer{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+.hovicon {
+  display: inline-block;
+  cursor: pointer;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+  color: #fff;
+}
+.hovicon:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content:'';
+  box-sizing: content-box;
+}
+.hovicon:before {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  display: block;
+}
+.hovicon.effect {
+  background: rgba(255, 255, 255, 0.1);
+  transition: transform ease-out 0.1s;
+}
+.hovicon.effect:after {
+  top: 0;
+  left: 0;
+  padding: 0;
+  z-index: -1;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  transform: scale(0.9);
+}
+.hovicon.effect:hover {
+  background: rgba(255, 255, 255, 0.05);
+  transform: scale(0.93);
+  color: #fff;
+}
+.hovicon.effect:hover i {
+  color: #fff;
+}
+.hovicon.effect:hover:after {
+  animation: sonarEffect 1.3s ease-out 75ms;
+}
+@keyframes sonarEffect {
+  0% {
+      opacity: 0.3;
+  }
+  40% {
+      opacity: 0.5;
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5);
+      transform: scale(1.2);
+      opacity: 0;
+  }
+}
+
