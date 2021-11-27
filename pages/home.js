@@ -1,17 +1,16 @@
 import React from 'react'
-import HeaderSection from './components/home/headerSection/HeaderSection'
-import Services from './components/home/services/Services'
-import Capabilities from './components/home/capabilities/Capabilities'
-import ContactUs from './components/home/contactUs/ContactUs'
-import ClientsAndPartners from './components/clientsAndPartners/ClientsAndPartners'
-import FooterSection from './components/footerSection/FooterSection'
+import HeaderSection from '../src/components/home/headerSection/HeaderSection'
+import Services from '../src/components/home/services/Services'
+import Capabilities from '../src/components/home/capabilities/Capabilities'
+import ContactUs from '../src/components/home/contactUs/ContactUs'
+import ClientsAndPartners from '../src/components/home/clientsAndPartners/ClientsAndPartners'
+import FooterSection from '../src/components/home/footerSection/FooterSection'
 function Home() {
     return (
         <div>
             <HeaderSection />
             <Services />
             <ClientsAndPartners />
-
             <Capabilities />
             <ContactUs />
             <FooterSection />
